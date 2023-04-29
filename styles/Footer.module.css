@@ -1,6 +1,7 @@
 .footerCt {
   margin-top: 120px;
-  background: #031d06;
+  /* background: #031d06; */
+  background-color: #ffffff;
   height: 433px;
   display: flex;
   flex-direction: column;

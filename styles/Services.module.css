@@ -1,0 +1,134 @@
+.serviceCt {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 120px;
+  margin: 0 auto;
+}
+
+.upperCt,
+.lowerCt {
+  display: flex;
+  width: 80%;
+  justify-content: space-between;
+  align-items: center;
+}
+.lowerCt {
+  margin-top: 120px;
+  gap: 20px;
+}
+.iconCt {
+  margin-top: 25px;
+  margin-left: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  gap: 10px;
+  width: 56px;
+  height: 56.5px;
+  background: #cae9cf;
+  border-radius: 50px;
+}
+.upperh2 {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 74px;
+  color: #000000;
+  flex: 3;
+}
+.upperp {
+  flex: 1.9;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 28px;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.cardCt {
+  width: 252px;
+  height: 206px;
+  background: #ffffff;
+  box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.08);
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  transition: all 0.2s;
+}
+.cardCt > * {
+  margin-left: 20px;
+}
+.cardCt:hover {
+  cursor: pointer;
+  opacity: 0.75;
+  box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.214);
+}
+.row3 {
+  /* height: 54px; */
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+@media screen and (max-width: 910px) {
+  .upperh2 {
+    font-size: 38px;
+  }
+  .upperp {
+    width: fit-content;
+    margin-right: auto;
+    font-size: 12px;
+    line-height: 18px;
+  }
+  .lowerCt {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-content: space-between;
+    margin: 20px auto;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .upperCt,
+  .lowerCt {
+    width: 100%;
+    margin-left: 10px;
+    /* margin-right: 10px; */
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .upperh2 {
+    font-size: 35px;
+    line-height: 45px;
+  }
+  .upperp {
+    width: fit-content;
+    margin-right: 10px;
+    font-size: 12px;
+    line-height: 18px;
+  }
+
+  .upperCt,
+  .lowerCt {
+    width: 100%;
+  }
+  .lowerCt {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    justify-content: center;
+    margin-left: 70px;
+  }
+}

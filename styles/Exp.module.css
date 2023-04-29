@@ -1,0 +1,159 @@
+.mainCt {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 120px;
+}
+
+.upperCt {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+}
+
+.upperCt h3 {
+  width: 592px;
+  height: 118px;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 59px;
+  color: #000000;
+}
+.upperCt p {
+  margin-top: 16px;
+  width: 525px;
+  height: 56px;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.lowerCt {
+  margin-top: 30px;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+}
+.btnsCt {
+  margin-left: auto;
+  display: flex;
+  gap: 20;
+  width: 135px;
+  justify-content: space-around;
+  align-items: center;
+  padding-bottom: 20px;
+}
+.btn {
+  width: 57px;
+  height: 57px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.2s;
+}
+.btn:hover {
+  cursor: pointer;
+  opacity: 0.75;
+}
+.btnLeft {
+  background: rgba(0, 0, 0, 0.1);
+  border-radius: 6px;
+}
+.btnRight {
+  background: #000000;
+  border-radius: 6px;
+  color: #ffffff;
+}
+
+.cards {
+  display: flex;
+  gap: 24px;
+}
+
+.view_img {
+  border-radius: 20px;
+  transition: all 0.2s;
+}
+.view_img:hover {
+  cursor: pointer;
+  opacity: 0.75;
+}
+.cardh4 {
+  margin-top: 24px;
+  padding-bottom: 10px;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  max-width: 310px;
+  line-height: 34px;
+  color: #000000;
+}
+.cardp {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: rgba(0, 0, 0, 0.7);
+}
+.cardLowest {
+  margin-top: 9px;
+  display: flex;
+  width: 60%;
+  justify-content: space-between;
+}
+.rating {
+  display: flex;
+}
+
+@media screen and (max-width: 650px) {
+  .upperCt p {
+    font-size: 12px;
+    line-height: 20px;
+  }
+  .upperCt h3 {
+    font-size: 30px;
+    /* width: fit-content; */
+  }
+  .cards {
+    gap: 0;
+  }
+  .cards > * {
+    margin: 0;
+    padding: 0;
+    width: 270px;
+  }
+  .card {
+    transform: scale(0.7);
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .upperCt p {
+    font-size: 12px;
+    line-height: 20px;
+    width: fit-content;
+  }
+  .upperCt h3 {
+    font-size: 30px;
+    width: fit-content;
+    line-height: 30px;
+  }
+  .cards {
+    gap: 0;
+  }
+  .cards > * {
+    margin: 0;
+    padding: 0;
+    width: 270px;
+  }
+  .card {
+    transform: scale(0.7);
+  }
+}

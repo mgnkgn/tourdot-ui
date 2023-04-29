@@ -1,0 +1,107 @@
+.appCt {
+  padding-left: 120px;
+  padding-right: 120px;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 120px;
+  padding-bottom: 123px;
+  background-image: url("../public/assets/green-bg.png");
+}
+
+.mainh3 {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 59px;
+  text-align: center;
+  color: #000000;
+  padding-top: 122px;
+}
+
+.mainp {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.7);
+  padding-top: 16px;
+}
+
+.mainLower {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 37.69px;
+  padding-top: 60px;
+}
+
+.info {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 16px 23px;
+  gap: 23px;
+  width: 174px;
+  height: 74px;
+  background: #000000;
+  border-radius: 12px;
+  transition: all 0.2s;
+}
+.info:hover {
+  cursor: pointer;
+  opacity: 0.75;
+}
+.brand {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+}
+.action {
+  width: 140%;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #ffffff;
+}
+
+.shop {
+  font-family: "Poppins", sans-serif;
+  width: 140%;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  color: #ffffff;
+}
+
+@media screen and (max-width: 650px) {
+  .appCt {
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  .info {
+    transform: scale(0.9);
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .appCt {
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  .info {
+    transform: scale(0.7);
+  }
+}

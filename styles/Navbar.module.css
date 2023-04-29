@@ -1,0 +1,145 @@
+.navCt {
+  display: flex;
+  margin-top: 55px;
+  margin-left: 120px;
+  margin-right: 120px;
+  height: 40px;
+  align-items: center;
+  justify-content: space-between;
+  /* flex-grow: 1; */
+}
+
+.tourDot {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  color: #000000;
+  transition: all 0.2s;
+}
+.tourDot:hover {
+  cursor: pointer;
+  opacity: 0.65;
+}
+.navLeft {
+  flex: 2;
+}
+.navRight {
+  flex: 3;
+  display: flex;
+  justify-content: space-between;
+}
+.navRight_1 {
+  display: flex;
+  justify-content: space-between;
+  flex: 1;
+}
+
+.listCt {
+  display: flex;
+  list-style: none;
+  flex: 1;
+  margin-right: 50px;
+  justify-content: space-between;
+  align-items: center;
+}
+.listCt li a {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #000000;
+  transition: all 0.2s;
+}
+.listCt li a:hover {
+  cursor: pointer;
+  opacity: 0.75;
+}
+.navBtn {
+  width: 102px;
+  height: 40px;
+  left: 1218px;
+  top: 47px;
+
+  background: linear-gradient(0deg, #000000, #000000),
+    linear-gradient(270deg, #ffc700 0%, #ff8a00 100%);
+  border-radius: 38px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 28px;
+  gap: 10px;
+  transition: all 0.2s;
+}
+.navBtn:hover {
+  opacity: 0.75;
+  cursor: pointer;
+}
+.navBtn p {
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+@media screen and (max-width: 950px) {
+  .navRight {
+    width: 120%;
+  }
+
+  .listCt li a {
+    font-size: 12px;
+    margin: 18px;
+  }
+}
+@media screen and (max-width: 650px) {
+  .navRight {
+    width: 120%;
+  }
+
+  .listCt li a {
+    font-size: 12px;
+    margin: 8px;
+  }
+  .tourDot {
+    font-size: 18px;
+  }
+  .navCt {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .navRight {
+    width: 120%;
+  }
+
+  .listCt li a {
+    font-size: 12px;
+    margin: 8px;
+  }
+  .tourDot {
+    font-size: 18px;
+    display: none;
+  }
+  .navCt {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .navBtn {
+    width: 72px;
+    height: 30px;
+    padding: 5px 14px;
+    gap: 10px;
+    margin-left: -20px;
+  }
+  .navBtn p {
+    font-size: small;
+  }
+}

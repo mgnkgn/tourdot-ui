@@ -1,9 +1,12 @@
 import React, { useState } from "react";
 
 import styles from "@/styles/Exp.module.css";
+import useWindowDimensions from "../util/useWindowDimensions";
 
 const ExpLower = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
+
+  const { height, width } = useWindowDimensions();
 
   const handlePrev = () => {
     if (currentIndex > 0) {
@@ -31,7 +34,22 @@ const ExpLower = () => {
       </div>
       <div
         className={styles.cards}
-        style={{ transform: `translateX(-${currentIndex * 45}%)` }}
+        style={{
+          transform: `translateX(-${
+            currentIndex *
+            `${
+              width > 800
+                ? width * 0.035
+                : width > 600 && width <= 800
+                ? width * 0.075
+                : width < 600 && width >= 500
+                ? width * 0.085
+                : width < 500
+                ? width * 0.15
+                : width * 0.15
+            }`
+          }%)`,
+        }}
       >
         <div className={styles.card}>
           <img

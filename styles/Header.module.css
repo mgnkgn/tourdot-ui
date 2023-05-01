@@ -41,8 +41,8 @@
 }
 .plane {
   position: absolute;
-  right: 0;
-  bottom: 0;
+  right: -25px;
+  bottom: 25px;
 }
 .mainLeft {
   width: 100%;

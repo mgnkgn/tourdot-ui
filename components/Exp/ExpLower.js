@@ -45,8 +45,8 @@ const ExpLower = () => {
                 : width < 600 && width >= 500
                 ? width * 0.085
                 : width < 500
-                ? width * 0.15
-                : width * 0.15
+                ? width * 0.23
+                : width * 0.23
             }`
           }%)`,
         }}

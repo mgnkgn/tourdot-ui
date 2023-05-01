@@ -80,6 +80,11 @@
   line-height: 18px;
   color: rgba(0, 0, 0, 0.7);
 }
+.row2 h3,
+.row3 h3,
+.row1 h3 {
+  font-family: "Montserrat";
+}
 
 @media screen and (max-width: 910px) {
   .upperh2 {

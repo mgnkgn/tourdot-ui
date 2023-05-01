@@ -119,3 +119,10 @@ option {
   width: 100px;
   cursor: pointer;
 }
+html {
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  font-family: inherit;
+}

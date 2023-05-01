@@ -43,6 +43,7 @@
 }
 .customerInfo h4 {
   color: #000;
+  font-family: "Montserrat", sans-serif;
 }
 
 .infoCt {
@@ -131,9 +132,9 @@
 }
 @media screen and (max-width: 950px) {
   .card_row2 p {
-    font-size: 10px;
+    font-size: 9px;
     width: fit-content;
-    line-height: 15px;
+    line-height: 12px;
   }
   .customerInfo h4 {
     font-size: 12px;

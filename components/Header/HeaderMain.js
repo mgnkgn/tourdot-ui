@@ -30,8 +30,8 @@ const HeaderMain = () => {
         <img
           src="./assets/plane.png"
           alt="plane"
-          width="185"
-          height="250"
+          width="187"
+          height="286"
           className={styles.plane}
         />
         <h2 className={styles.mainh2}>
@@ -84,8 +84,8 @@ const HeaderMain = () => {
           <img
             src="./assets/Union.png"
             alt="statue"
-            width="420"
-            height="456"
+            width="325"
+            height="450"
             className={styles.imgUnion}
           />
           <div className={styles.whiteBox}>

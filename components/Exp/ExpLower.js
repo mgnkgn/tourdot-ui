@@ -55,8 +55,8 @@ const ExpLower = () => {
           <img
             src="./assets/View1.png"
             alt="view"
-            width="325"
-            height="384"
+            width="384"
+            height="404"
             className={styles.view_img}
           />
           <h4 className={styles.cardh4}>Enjoy the beauty of the railto Hill</h4>
@@ -77,8 +77,8 @@ const ExpLower = () => {
           <img
             src="./assets/View2.png"
             alt="view"
-            width="325"
-            height="384"
+            width="384"
+            height="404"
             className={styles.view_img}
           />
           <h4 className={styles.cardh4}>
@@ -101,8 +101,8 @@ const ExpLower = () => {
           <img
             src="./assets/View3.png"
             alt="view"
-            width="325"
-            height="384"
+            width="384"
+            height="404"
             className={styles.view_img}
           />
           <h4 className={styles.cardh4}>Enjoy the beauty of the sea beach</h4>
@@ -123,8 +123,8 @@ const ExpLower = () => {
           <img
             src="./assets/View1.png"
             alt="view"
-            width="325"
-            height="384"
+            width="384"
+            height="404"
             className={styles.view_img}
           />
           <h4 className={styles.cardh4}>

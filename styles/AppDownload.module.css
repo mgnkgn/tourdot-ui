@@ -15,7 +15,7 @@
 }
 
 .mainh3 {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Montserrat";
   font-style: normal;
   font-weight: 600;
   font-size: 48px;
@@ -23,6 +23,7 @@
   text-align: center;
   color: #000000;
   padding-top: 122px;
+  padding-bottom: 16px;
 }
 
 .mainp {
@@ -33,7 +34,7 @@
   line-height: 28px;
   text-align: center;
   color: rgba(0, 0, 0, 0.7);
-  padding-top: 16px;
+  padding-bottom: 60px;
 }
 
 .mainLower {
@@ -50,7 +51,7 @@
   justify-content: center;
   align-items: center;
   padding: 16px 23px;
-  gap: 23px;
+  gap: 13px;
   width: 174px;
   height: 74px;
   background: #000000;
@@ -68,18 +69,22 @@
   height: 100%;
 }
 .action {
-  width: 140%;
-  font-family: "Poppins", sans-serif;
+  left: 81.31px;
+  width: max-content;
+  top: 16px;
+  font-family: "Poppins";
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 21px;
   color: #ffffff;
+  align-self: flex-start;
 }
 
 .shop {
-  font-family: "Poppins", sans-serif;
-  width: 140%;
+  align-self: flex-start;
+  width: max-content;
+  font-family: "Poppins";
   font-style: normal;
   font-weight: 500;
   font-size: 14px;

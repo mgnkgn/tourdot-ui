@@ -32,7 +32,7 @@ const ServiceLower = () => {
           />
         </div>
         <div className={styles.row2}>
-          <h3>Worldwide Travelling</h3>
+          <h3>Lot of choices</h3>
         </div>
         <div className={styles.row3}>
           Lorem ipsum dolor sit amet, cons ectetur adipiscing elit. Libero sagi
@@ -49,7 +49,7 @@ const ServiceLower = () => {
           />
         </div>
         <div className={styles.row2}>
-          <h3>Worldwide Travelling</h3>
+          <h3>Easy booking</h3>
         </div>
         <div className={styles.row3}>
           Lorem ipsum dolor sit amet, cons ectetur adipiscing elit. Libero sagi
@@ -66,7 +66,7 @@ const ServiceLower = () => {
           />
         </div>
         <div className={styles.row2}>
-          <h3>Worldwide Travelling</h3>
+          <h3>Our responsibility</h3>
         </div>
         <div className={styles.row3}>
           Lorem ipsum dolor sit amet, cons ectetur adipiscing elit. Libero sagi

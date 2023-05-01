@@ -42,8 +42,14 @@
   flex-direction: column;
 }
 .customerInfo h4 {
-  color: #000;
-  font-family: "Montserrat", sans-serif;
+  width: 172px;
+  height: 29px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  color: #000000;
 }
 
 .infoCt {
@@ -52,7 +58,9 @@
   gap: 5px;
 }
 .infoP {
-  font-family: "Montserrat", sans-serif;
+  width: 30px;
+  height: 17px;
+  font-family: "Montserrat";
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -61,15 +69,21 @@
 }
 
 .card_row2 p {
-  font-family: "Montserrat", sans-serif;
+  width: 269px;
+  height: 84px;
+  font-family: "Montserrat";
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
   line-height: 28px;
   color: #6d6d6d;
-  padding-left: 123px;
-  padding-right: 47px;
-  padding-bottom: 37px;
+  margin-left: 123px;
+  padding-top: 20px;
+}
+
+.headerCt {
+  display: flex;
+  flex-direction: column;
 }
 
 .headerh2 {
@@ -81,10 +95,28 @@
   text-align: center;
   color: #000000;
   padding-bottom: 16px;
+  width: 467px;
+  height: 118px;
+  left: 487px;
+  top: 3072px;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 59px;
+  text-align: center;
+  align-self: center;
+  color: #000000;
 }
 
 .headerp {
-  font-family: "Montserrat", sans-serif;
+  padding-top: 16px;
+  padding-bottom: 28px;
+  width: 525px;
+  height: 56px;
+  align-self: center;
+  font-family: "Montserrat";
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -136,6 +168,7 @@
     width: fit-content;
     line-height: 12px;
   }
+
   .customerInfo h4 {
     font-size: 12px;
   }
@@ -144,6 +177,17 @@
 @media screen and (max-width: 650px) {
   .cardsCt {
     transform: translateX(-75%);
+  }
+  .customerInfo h4 {
+    font-size: 12px;
+  }
+  .headerh2 {
+    font-size: 38px;
+  }
+  .headerp {
+    font-size: 18px;
+    width: fit-content;
+    height: fit-content;
   }
   .customersCt {
     padding-right: 10px;

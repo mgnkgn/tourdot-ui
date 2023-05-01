@@ -23,7 +23,9 @@ const Us = () => {
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Leo sociis
           massa et phasellus.
         </p>
-        <button className={styles.btn}>Learn More</button>
+        <button className={styles.btn}>
+          <p>Learn More</p>
+        </button>
         <div className={styles.lowestRow}>
           <div>
             <p className={styles.num}>560+</p>

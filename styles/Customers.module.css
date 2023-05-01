@@ -41,6 +41,9 @@
   display: flex;
   flex-direction: column;
 }
+.customerInfo h4 {
+  color: #000;
+}
 
 .infoCt {
   display: flex;
